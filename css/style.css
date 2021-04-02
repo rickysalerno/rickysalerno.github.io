@@ -1,0 +1,219 @@
+* {
+    font-family: 'Raleway', sans-serif;
+}
+
+#logo {
+    width: 100px;
+}
+
+.navBar {
+    text-align: right;
+}
+
+.navBar a {
+    text-decoration: none;
+    padding: 10px;
+    font-size: 13px;
+}
+
+.navBar a:hover {
+    color: red;
+}
+
+
+
+.intro h4 {
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.intro h5 {
+    font-weight: 400;
+    margin-top: -12px;
+    font-size: 13px;
+}
+
+.introButton {
+    display: flex;
+    flex-direction: row wrap;
+    justify-content: flex-start;
+    border: 1px solid rgb(238, 238, 238);
+    width: fit-content;
+    border-radius: 10px;
+}
+
+.introButton input {
+    padding: 9px;
+    border: 0.1px solid rgb(192, 191, 191);
+    border: non;
+
+}
+
+#maps {
+    height: 19px;
+    width: 23px;
+    background-color: rgb(214, 212, 212);
+    padding: 11px;
+    border-radius: 10px 0px 0px 10px;
+
+}
+
+.introButton button {
+    border: 0;
+    border-radius: 0px 10px 10px 0px;
+    padding: 11px;
+    margin-left: -10px;
+    background-color: #0065FC;
+    color: white;
+}
+
+
+
+.filter {
+    display: flex;
+    flex-flow: row wrap;
+    gap: 20px;
+    margin-top: 50px;
+    margin-left: 10px;
+}
+
+.filter div {
+    border-radius: 20px;
+    padding: 6px;
+    border: 1px rgb(204, 203, 203) solid;
+}
+
+.lightBlue {
+    font-weight: 800;
+    color: cornflowerblue;
+    /* color:  #DEEBFF; */
+}
+
+.intenseBlue {
+    font-weight: 800;
+    color: #0065FC;
+}
+
+#adviceSpan {
+    display: inline-table;
+    margin-bottom: 30px;
+    margin-left: 5px;
+}
+
+.container_row1 {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: stretch;
+    gap: 2vw;
+}
+
+
+.container_column {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+.container_rowPop {
+    display: flex;
+}
+
+..container_colPop {
+    display: flex;
+    flex-flow: column wrap;
+}
+
+.imgPiccolaPop {
+    width: 200px;
+    height: 110px;
+    object-fit: cover;
+    border-radius: 20px 0px 0px 20px;
+    position: relative;
+    top: 2px;
+    left: 3px;
+}
+
+/* Sezione Attivita */
+
+
+.container_row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+
+.container_rowTest {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.imageGrandeBorder {
+    background-color: white;
+    width: fit-content;
+    border-radius: 20px;
+}
+
+.imageGrande {
+    width: 200px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 20px 20px 0 0;
+}
+
+.imageGrandeBorder h4,
+.image {
+    text-align: center;
+}
+
+
+.image {
+    background-color: white;
+    width: fit-content;
+    border-radius: 20px;
+}
+
+.imgPiccola {
+    width: 200px;
+    height: 110px;
+    object-fit: cover;
+    border-radius: 20px 20px 0 0;
+}
+
+.spazioFlex {
+    margin-top: 20px;
+}
+
+/* Fine Activities */
+
+
+/* Footer */
+
+footer {
+    margin-top: 30px;
+}
+
+.footerRow {
+    display: flex;
+    flex-flow: wrap row;
+    justify-content: space-between;
+}
+
+.footerColumns {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-between;
+}
+
+.footerColumns a {
+    text-decoration: none;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+/* Fine Footer */
