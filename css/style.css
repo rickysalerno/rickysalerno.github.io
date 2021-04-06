@@ -20,6 +20,18 @@
     color: red;
 }
 
+.accomodationSelect:hover {
+    color: #0065FC;
+    background-color: rgb(153, 107, 199);
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+
+
 
 
 .intro h4 {
@@ -37,7 +49,6 @@
     display: flex;
     flex-direction: row wrap;
     justify-content: flex-start;
-    border: 1px solid rgb(238, 238, 238);
     width: fit-content;
     border-radius: 10px;
 }
@@ -100,6 +111,7 @@
     margin-left: 5px;
 }
 
+
 .container_row1 {
     display: flex;
     flex-flow: row wrap;
@@ -136,6 +148,12 @@
     left: 3px;
 }
 
+.stars {
+    text-align: center;
+    margin-top: -15px;
+    margin-bottom: 10px;
+    size: 1px;
+}
 /* Sezione Attivita */
 
 
@@ -189,6 +207,17 @@
     margin-top: 20px;
 }
 
+.container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+
+.container h4 {
+    margin: 30px;
+}
+
 /* Fine Activities */
 
 
@@ -216,4 +245,11 @@ footer {
     margin-right: 10px;
 }
 
+footer a {
+    color: #0065FC;
+}
+
+.choosingFooter:hover {
+    color: #fc6500;
+}
 /* Fine Footer */
