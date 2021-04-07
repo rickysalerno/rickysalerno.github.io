@@ -133,9 +133,10 @@ a {
     display: flex;
 }
 
-..container_colPop {
+.container_colPop {
     display: flex;
     flex-flow: column wrap;
+
 }
 
 .imgPiccolaPop {
@@ -154,6 +155,7 @@ a {
     margin-bottom: 10px;
     size: 1px;
 }
+
 /* Sezione Attivita */
 
 
@@ -193,6 +195,7 @@ a {
 .image {
     background-color: white;
     width: fit-content;
+    max-width: 100%;
     border-radius: 20px;
 }
 
@@ -210,7 +213,6 @@ a {
 .container {
     display: flex;
     flex-flow: row wrap;
-    justify-content: space-between;
 }
 
 
@@ -252,4 +254,5 @@ footer a {
 .choosingFooter:hover {
     color: #fc6500;
 }
+
 /* Fine Footer */
