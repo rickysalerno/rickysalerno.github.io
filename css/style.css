@@ -57,6 +57,7 @@
 .accomodationSelect:hover {
     color: #0065FC;
     background-color: rgb(153, 107, 199);
+    border-radius: 20px;
 }
 
 
