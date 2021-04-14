@@ -48,6 +48,15 @@
     border: 0px solid grey;
     color: #0065FC;
     }
+.iconic-friend {
+    position: relative;
+    left: 4px;
+}
+
+.iconic-hearth {
+    position: relative;
+    left: 2px;
+}
 
 .filter span {
     margin-left: 10px;
