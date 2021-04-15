@@ -201,13 +201,15 @@
     flex-flow: row wrap;
     gap: 2rem;
     margin: 2rem 0;
-    flex-grow: 1;
+    width: fit-content;
 }
 
 
 .containerRoom {
     display: flex;
     flex-flow: row wrap;
+    flex-grow: 1;
+    flex-shrink: 1;
 }
 
 .containerRoom__a {
@@ -371,6 +373,7 @@
 .footerColumns {
     display: flex;
     flex-flow: column wrap;
+    flex-grow: 1;
 }
 
 .footerColumns__a {
