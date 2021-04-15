@@ -311,6 +311,18 @@
 
 /* inizio Activities */
 
+.sectionActivities{
+    margin-top: 2em; 
+    background-color: rgb(219, 219, 219); 
+    border-radius: 2rem;
+}
+
+@media (max-width:462px) {
+    .sectionActivities{
+        width: 461px;
+    }
+}
+
 
 
 .activities {
