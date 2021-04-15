@@ -6,7 +6,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
-    <link rel="shortcut icon" href="images/logo/Reservia.ico" type="image/x-icon">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;400;500;800&display=swap" rel="stylesheet">
     <script defer src="https://use.fontawesome.com/releases/v5.15.2/js/all.js"
@@ -16,299 +15,230 @@
 </head>
 
 <body>
-    <div class="navBar">
-        <header>
-            <nav>
-                <a href="#">Accomodations</a>
-                <a href="#">Activities</a>
-                <a href="#">Sign Up</a>
-            </nav>
-        </header>
+    <header class="">
+        <nav class="navBar">
+            <a class="navBar__a navBar__a--light-blue navBar__a--font-400" href="#">Accomodations</a>
+            <a class="navBar__a navBar__a--smoke-grey navBar__a--font-400" href="#">Activities</a>
+            <a class="navBar__a navBar__a--intense-blue navBar__a--font-400" href="#">Sign Up</a>
+        </nav>
+        <img src="images/logo/Reservia.svg" alt="Reservia Logo">
+    </header>
+    <div class="descrizione">
+        <h4 class="descrizione descrizione__h4">Find a place for your dream vacation</h4>
+        <h5 class="descrizione descrizione__h5">Downtown on in nature</h5>
     </div>
-
-    <div id="logo">
-        <img src="images/logo/Reservia.svg" alt="logo">
-    </div>
-
-
-    <div class="intro">
-        <h4>Find a place for your dream vacation</h4>
-        <h5>Downtown in nature</h5>
-        <div class="introButton">
-            <i id="maps" class="fas fa-map-marker-alt"></i>
-            <input type="text" name="maps">
-            <button type="submit">Search</button>
-        </div>
-    </div>
-
-
-      <div class="filter">
-        <span>Filters</span>
-        <div class="filterItem">
-            <div class="iconic"><i class="fas fa-money-bill-wave intenseBlue"></i></div>
-            <span><strong>Low Cost</strong></span>
-        </div>
-
-        <div class="filterItem">
-            <div class="iconic"><i class="fas fa-child intenseBlue iconic-friend"></i></div>
-            <span><strong>Family-Friendly</strong></span>
-        </div>
-
-        <div class="filterItem">
-            <div class="iconic"><i class="fas fa-heart intenseBlue iconic-hearth"></i></div>
-            <span><strong>Romantic</strong></span>
-        </div>
-
-        <div class="filterItem">
-            <div class="iconic"><i class="fas fa-dog intenseBlue"></i></div>
-            <span><strong>Pets Allowed</strong></span>
-        </div>
+    <div class="mappa">
+        <i class="fas fa-map-marker-alt mappa__icona"></i>
+        <input class="mappa__testo" type="text" name="Marseille">
+        <input class="mappa__search mappa__search--blue-background mappa__search--white" type="button" value="Search">
     </div>
     <br>
+    <div class="filter-section">
+        <p class="filter-section__p">Filter</p>
+        <a href="#" class="filter-section__a filter-section__a--border">
+            <i class="fas fa-money-bill-wave filter-section__a--icon"></i>
+            <span class="filter-section__a--span">Low Cost</span>
+        </a>
+        <a href="#" class="filter-section__a filter-section__a--border">
+            <i class="fas fa-child filter-section__a--icon"></i>
+            <span class="filter-section__a--span">Family Friendly</span>
+        </a>
+        <a href="#" class="filter-section__a filter-section__a--border">
+            <i class="fas fa-heart filter-section__a--icon"></i>
+            <span class="filter-section__a--span">Romantic</span>
+        </a>
+        <a href="#" class="filter-section__a filter-section__a--border">
+            <i class="fas fa-dog filter-section__a--icon"></i>
+            <span class="filter-section__a--span">Pets Allowed</span>
+        </a>
+    </div>
+    <div class="advice">
+        <i class="fas fa-info-circle advice__i"></i>
+        <span class="advice__span">More than 500 Accomodations in this city</span>
+    </div>
 
-        <div class="advice">
-            <i class="fas fa-info-circle intenseBlue" id="ads"></i>
-            <span id="adviceSpan">More than 500 Accomodations are available in this<br>city</span>
-        </div>
-        <section>
-            <div class="container_row1">
-                <div style="background-color: rgb(204, 203, 203); border-radius: 20px; padding: 10px; flex: auto;">
-                    <h4>Accomodations in Marseille</h4>
-                    <div class="container_row">
-                        <div class="image spazioFlex accomodationSelect">
-                            <a href="#">
-                                <img class="imgPiccola" src="images/1_1.jpg" alt="">
-                                <h4>Auberge la Canneberie</h4>
-                                <h5>Night Start at <strong>25€</strong></h5>
-                                <div class="stars intenseBlue">
-                                    <i class="fas fa-star checked"></i>
-                                    <i class="fas fa-star checked"></i>
-                                    <i class="fas fa-star checked"></i>
-                                    <i class="fas fa-star checked "></i>
-                                <i class="far fa-star"></i>
-                                </div>
-                            </a>
-
-
-                        </div>
-                        <div class="image spazioFlex accomodationSelect">
-                            <a href="#">
-                                <img class="imgPiccola" src="images/1_2.jpg" alt="">
-                                <h4>Hotel du Port</h4>
-                                <h5>Night Start at <strong>52€</strong></h5>
-                                <div class="stars intenseBlue">
-                                    <i class="fas fa-star checked"></i>
-                                    <i class="fas fa-star checked"></i>
-                                    <i class="fas fa-star checked"></i>
-                                    <i class="fas fa-star checked "></i>
-                                    <i class="fas fa-star checked "></i>
-                                </div>
-                            </a>
-
-
-                        </div>
-                        <div class="image spazioFlex accomodationSelect">
-                            <a href="#">
-                                <img class="imgPiccola" src="images/1_3.jpg" alt="">
-                                <h4>Les mouettes Hotel</h4>
-                                <h5>Night Start at <strong>75€</strong></h5>
-                                <div class="stars intenseBlue">
-                                    <i class="fas fa-star checked"></i>
-                                    <i class="fas fa-star checked"></i>
-                                    <i class="fas fa-star checked"></i>
-                                    <i class="fas fa-star checked "></i>
-                                    <i class="far fa-star"></i>
-                                </div>
-                            </a>
-
-
-                        </div>
-                    </div>
-                    <div class="container_row">
-                        <div class="image spazioFlex accomodationSelect">
-                            <a href="#">
-                                <img class="imgPiccola" src="images/2_1.jpg" alt="">
-                                <h4>Hotel de la Mer</h4>
-                                <h5>Night Start at <strong>46€</strong></h5>
-                                <div class="stars intenseBlue">
-                                    <i class="fas fa-star checked"></i>
-                                    <i class="fas fa-star checked"></i>
-                                    <i class="fas fa-star checked"></i>
-                                    <i class="far fa-star"></i>
-                                    <i class="far fa-star"></i>
-                                </div>
-                            </a>
-
-
-                        </div>
-                        <div class="image spazioFlex accomodationSelect">
-                            <a href="#">
-                                <img class="imgPiccola" src="images/2_2.jpg" alt="">
-                                <h4>Auberge Le panier</h4>
-                                <h5>Night Start at <strong>23€</strong></h5>
-                                <div class="stars intenseBlue">
-                                    <i class="fas fa-star checked"></i>
-                                    <i class="fas fa-star checked"></i>
-                                    <i class="fas fa-star checked"></i>
-                                    <i class="fas fa-star checked "></i>
-                                    <i class="far fa-star"></i>
-                                </div>
-                            </a>
-
-
-                        </div>
-                        <div class="image spazioFlex accomodationSelect">
-                            <a href="#">
-                                <img class="imgPiccola" src="images/2_3.jpg" alt="">
-                                <h4>Hotel chez Amina</h4>
-                                <h5>Night Start at <strong>96€</strong></h5>
-                                <div class="stars intenseBlue">
-                                    <i class="fas fa-star checked"></i>
-                                    <i class="fas fa-star checked"></i>
-                                    <i class="fas fa-star checked"></i>
-                                    <i class="fas fa-star checked "></i>
-                                    <i class="fas fa-star checked "></i>
-                                </div>
-                            </a>
-
-
-                        </div>
-                    </div>
-                </div>
-                <div style="background-color: rgb(204, 203, 203); border-radius: 20px; padding: 10px;">
-                    <h4>Most Popular</h4>
-                    <div class="container_column">
-                        <div class="image spazioFlex">
-                            <a href="#">
-                                <div class="mostPopular accomodationSelect">
-                                    <div>
-                                        <img class="imgPiccolaPop" src="images/3_1.jpg" alt="">
-                                    </div>
-                                    <div style="margin-left:20px; margin-right: 20px;">
-                                        <h4>Auberge la Canneberie</h4>
-                                        <h5>Night start at <strong>123€</strong></h5>
-                                        <div class="intenseBlue">
-                                            <i class="fas fa-star checked"></i>
-                                            <i class="fas fa-star checked"></i>
-                                            <i class="fas fa-star checked"></i>
-                                            <i class="fas fa-star checked "></i>
-                                            <i class="fas fa-star checked "></i>
-                                        </div>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="image spazioFlex">
-                            <a href="#">
-                                <div class="mostPopular accomodationSelect">
-                                    <div>
-                                        <img class="imgPiccolaPop" src="images/3_2.jpg" alt="">
-                                    </div>
-                                    <div style="margin-left:20px; margin-right: 20px;">
-                                        <h4>Au coeur de l'eau Bed<br>and Breakfast</h4>
-                                        <h5>Night start at <strong>23€</strong></h5>
-                                        <div class="intenseBlue">
-                                            <i class="fas fa-star checked"></i>
-                                            <i class="fas fa-star checked"></i>
-                                            <i class="fas fa-star checked"></i>
-                                            <i class="fas fa-star checked "></i>
-                                            <i class="far fa-star"></i>
-                                        </div>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="image spazioFlex" style="width: 95%;">
-                            <a href="#">
-                                <div class="mostPopular accomodationSelect">
-                                    <div>
-                                        <img class="imgPiccolaPop" src="images/3_3.jpg" alt="">
-                                    </div>
-                                    <div style="margin-left:20px; margin-right: 20px;">
-                                        <h4>Tout bleau et Blanc Hotel</h4>
-                                        <h5>Night start at <strong>68€</strong></h5>
-                                        <div class="intenseBlue">
-                                            <i class="fas fa-star checked"></i>
-                                            <i class="fas fa-star checked"></i>
-                                            <i class="fas fa-star checked"></i>
-                                            <i class="fas fa-star checked "></i>
-                                            <i class="far fa-star"></i>
-                                        </div>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section
-            style="background-color: rgb(204, 203, 203); border-radius: 20px; padding: 10px;margin-top: 20px; max-width: 100%;            ">
-            <div>
-                <h4>Activities in Marseille</h4>
-                <div class="container_row">
-                    <div class="imageGrandeBorder spazioFlex">
-                        <img class="imageGrande" src="images/secondaParte/1.1.jpg" alt="">
-                        <h4>Old Port</h4>
-                    </div>
-                    <div>
-                        <div class="image spazioFlex">
-                            <img class="imgPiccola" src="images/secondaParte/1.2.jpg" alt="">
-                            <h4>Fort</h4>
-                        </div>
-                        <div class="image spazioFlex">
-                            <img class="imgPiccola" src="images/secondaParte/1.3.jpg" alt="">
-                            <h4>Frioul Island</h4>
-                        </div>
-                    </div>
-                    <div class="imageGrandeBorder spazioFlex">
-                        <img class="imageGrande" src="images/secondaParte/1.4.jpg" alt="">
-                        <h4>Calanques</h4>
-                    </div>
-                    <div>
+    <section class="sectionAccomodations">
+        <div style="background-color: rgb(219, 219, 219); border-radius: 1rem; padding: 1rem;">
+            <h2>Accomodations in Marseille</h2>
+            <div class="containerAfterThat">
+                <div class="containerRoom">
+                    <a class="containerRoom__a" href="#">
+                        <img class="containerRoom__a__img" src="images/1_1.jpg" alt="Stanza1">
                         <div>
-                            <div class="image spazioFlex">
-                                <img class="imgPiccola" src="images/secondaParte/1.5.jpg" alt="">
-                                <h4>NotreDame</h4>
-                            </div>
-                            <div class="image spazioFlex">
-                                <img class="imgPiccola " src="images/secondaParte/1.6.jpg" alt="">
-                                <h4>LongChamp Park</h4>
-                            </div>
+                            <h4 class="containerRoom__a__h4">Auberge la Canneberie</h4>
+                            <h5 class="containerRoom__a__h5">Night start at <strong>25euro</strong></h5>
+                            <i class="fas fa-star checked containerRoom__a__i"></i>
+                            <i class="fas fa-star checked containerRoom__a__i"></i>
+                            <i class="fas fa-star checked containerRoom__a__i"></i>
+                            <i class="fas fa-star checked containerRoom__a__i"></i>
+                            <i class="far fa-star containerRoom__a__i"></i><br>
                         </div>
-                    </div>
+
+                    </a>
+                    <a class="containerRoom__a" href="#">
+                        <img class="containerRoom__a__img" src="images/1_2.jpg" alt="Stanza2">
+                        <h4 class="containerRoom__a__h4">Hotel du port</h4>
+                        <h5 class="containerRoom__a__h5">Night starting at <strong>52euro</strong></h5>
+                        <i class="fas fa-star checked containerRoom__a__i"></i>
+                        <i class="fas fa-star checked containerRoom__a__i"></i>
+                        <i class="fas fa-star checked containerRoom__a__i"></i>
+                        <i class="fas fa-star checked containerRoom__a__i"></i>
+                        <i class="fas fa-star checked containerRoom__a__i"></i><br>
+                    </a>
+
+                    <a class="containerRoom__a" href="#">
+                        <img class="containerRoom__a__img" src="images/1_3.jpg" alt="Stanza2">
+                        <h4 class="containerRoom__a__h4">Les mouettes Hotel</h4>
+                        <h5 class="containerRoom__a__h5">Night starting at <strong>76euro</strong></h5>
+                        <i class="fas fa-star checked containerRoom__a__i"></i>
+                        <i class="fas fa-star checked containerRoom__a__i"></i>
+                        <i class="fas fa-star checked containerRoom__a__i"></i>
+                        <i class="fas fa-star checked containerRoom__a__i "></i>
+                        <i class="far fa-star checked containerRoom__a__i"></i><br>
+                    </a>
+                </div>
+                <div class="containerRoom">
+                    <a class="containerRoom__a" href="#">
+                        <img class="containerRoom__a__img" src="images/2_1.jpg" alt="Stanza1">
+                        <h4 class="containerRoom__a__h4">Hotel de la mer</h4>
+                        <h5 class="containerRoom__a__h5">Night start at <strong>46euro</strong></h5>
+                        <i class="fas fa-star checked containerRoom__a__i"></i>
+                        <i class="fas fa-star checked containerRoom__a__i"></i>
+                        <i class="fas fa-star checked containerRoom__a__i"></i>
+                        <i class="far fa-star containerRoom__a__i"></i>
+                        <i class="far fa-star containerRoom__a__i"></i><br>
+                    </a>
+                    <a class="containerRoom__a" href="#">
+                        <img class="containerRoom__a__img" src="images/2_2.jpg" alt="Stanza2">
+                        <h4 class="containerRoom__a__h4">Auberge le Panier</h4>
+                        <h5 class="containerRoom__a__h5">Night starting at <strong>23euro</strong></h5>
+                        <i class="fas fa-star checked containerRoom__a__i"></i>
+                        <i class="fas fa-star checked containerRoom__a__i"></i>
+                        <i class="fas fa-star checked containerRoom__a__i"></i>
+                        <i class="fas fa-star checked containerRoom__a__i"></i>
+                        <i class="far fa-star containerRoom__a__i"></i><br>
+                    </a>
+
+                    <a class="containerRoom__a" href="#">
+                        <img class="containerRoom__a__img" src="images/2_3.jpg" alt="Stanza2">
+                        <h4 class="containerRoom__a__h4">Hotel chez Amina</h4>
+                        <h5 class="containerRoom__a__h5">Night starting at <strong>96euro</strong></h5>
+                        <i class="fas fa-star checked containerRoom__a__i"></i>
+                        <i class="fas fa-star checked containerRoom__a__i"></i>
+                        <i class="fas fa-star checked containerRoom__a__i"></i>
+                        <i class="fas fa-star checked containerRoom__a__i"></i>
+                        <i class="fas fa-star checked containerRoom__a__i"></i><br>
+                    </a>
                 </div>
             </div>
-        </section>
+        </div>
 
+        <div style="background-color: rgb(219, 219, 219); border-radius: 1rem; padding: 1rem;">
+            <h2>Most Popular</h2>
+            <div class="containerAfterThat">
+                <div class="containerRoomPopular">
+                    <a class="containerRoomPopular__a" href="#">
+                        <img class="containerRoomPopular__a__img" src="images/3_1.jpg" alt="Stanza2">
+                        <div class="containerRoomPopular__a__div">
+                            <h4 class="containerRoom__a__h4">Hotel chez Amina</h4>
+                            <h5 class="containerRoom__a__h5">Night starting at <strong>96euro</strong></h5>
+                            <i class="fas fa-star checked containerRoom__a__i"></i>
+                            <i class="fas fa-star checked containerRoom__a__i"></i>
+                            <i class="fas fa-star checked containerRoom__a__i"></i>
+                            <i class="fas fa-star checked containerRoom__a__i"></i>
+                            <i class="fas fa-star checked containerRoom__a__i"></i><br>
+                        </div>
 
-        <footer style="background-color: rgb(204, 203, 203);">
-            <div class="footerRow">
-                <div>
-                    <nav class="footerColumns">
-                        <a class="choosingFooter" href="">About</a>
-                        <a class="choosingFooter" href="">Site Map</a>
-                        <a class="choosingFooter" href="">General Term and COnditions</a>
-                        <a class="choosingFooter" href="">Data and Privacy</a>
-                    </nav>
-                </div>
-                <div>
-                    <nav class="footerColumns">
-                        <a class="choosingFooter" href="">Our Accomodations</a>
-                        <a class="choosingFooter" href="">Quality assessments</a>
-                        <a class="choosingFooter" href="">You have a hotel?</a>
-                    </nav>
-                </div>
-                <div>
-                    <nav class="footerColumns">
-                        <a class="choosingFooter" href="">Assistance</a>
-                        <a class="choosingFooter" href="">Help Desk</a>
-                        <a class="choosingFooter" href="">Contact us</a>
-                    </nav>
+                    </a>
+                    <a class="containerRoomPopular__a" href="#">
+                        <img class="containerRoomPopular__a__img" src="images/3_2.jpg" alt="Stanza2">
+                        <div class="containerRoomPopular__a__div">
+                            <h4 class="containerRoom__a__h4">Hotel chez Amina</h4>
+                            <h5 class="containerRoom__a__h5">Night starting at <strong>96euro</strong></h5>
+                            <i class="fas fa-star checked containerRoom__a__i"></i>
+                            <i class="fas fa-star checked containerRoom__a__i"></i>
+                            <i class="fas fa-star checked containerRoom__a__i"></i>
+                            <i class="fas fa-star checked containerRoom__a__i"></i>
+                            <i class="fas fa-star checked containerRoom__a__i"></i><br>
+                        </div>
+
+                    </a>
+                    <a class="containerRoomPopular__a" href="#">
+                        <img class="containerRoomPopular__a__img" src="images/3_3.jpg" alt="Stanza2">
+                        <div class="containerRoomPopular__a__div">
+                            <h4 class="containerRoom__a__h4">Hotel chez Amina</h4>
+                            <h5 style="width: 100%;" class="containerRoom__a__h5">Night starting at <strong>96euro</strong></h5>
+                            <i class="fas fa-star checked containerRoom__a__i"></i>
+                            <i class="fas fa-star checked containerRoom__a__i"></i>
+                            <i class="fas fa-star checked containerRoom__a__i"></i>
+                            <i class="fas fa-star checked containerRoom__a__i"></i>
+                            <i class="fas fa-star checked containerRoom__a__i"></i><br>
+                        </div>
+
+                    </a>
                 </div>
             </div>
-        </footer>
+        </div>
+    </section>
+
+    <section style="margin-top: 2em; background-color: rgb(219, 219, 219); border-radius: 2rem;">
+        <h4 style="padding-left: 2rem; padding-top: 2rem;">Activities in Marseille</h4>
+        <div class="activities">
+            <a class="activites__a" href="#">
+                <img class="activites__a__img--grande" src="images/secondaParte/1.1.jpg" alt="">
+                <h4 class="activites__a__h4">Old Port</h4>
+            </a>
+            <div style="display: flex; flex-flow: column wrap;;">
+                <a class="activites__a" href="#">
+                    <img class="activites__a__img--piccola" src="images/secondaParte/1.2.jpg" alt="">
+                    <h4 class="activites__a__h4">Fort</h4>
+                </a>
+                <a class="activites__a" href="#">
+                    <img class="activites__a__img--piccola" src="images/secondaParte/1.3.jpg" alt="">
+                    <h4 class="activites__a__h4">Frioul Island</h4>
+                </a>
+            </div>
+           
+            <a class="activites__a" href="#">
+                <img class="activites__a__img--grande" src="images/secondaParte/1.4.jpg" alt="">
+                <h4 class="activites__a__h4">Calanques</h4>
+            </a>
+
+            <div style="display: flex; flex-flow: column wrap;">
+                <a class="activites__a" href="#">
+                    <img class="activites__a__img--piccola" src="images/secondaParte/1.5.jpg" alt="">
+                    <h4 class="activites__a__h4">Notre Dame</h4>
+                </a>
+                <a class="activites__a" href="#">
+                    <img class="activites__a__img--piccola" src="images/secondaParte/1.6.jpg" alt="">
+                    <h4 style="margin-bottom: 2em;"class="activites__a__h4">Long Champ Park</h4>
+                </a>
+            </div>
+           
+        </div>
+    </section>
+
+    <footer style="background-color: rgb(219, 219, 219); margin-top: 2em;">
+        <div class="footerContainer">
+                <nav class="footerColumns">
+                    <a class="footerColumns__a" href="#">About</a>
+                    <a class="footerColumns__a" href="#">Site Map</a>
+                    <a class="footerColumns__a" href="#">General Term and COnditions</a>
+                    <a class="footerColumns__a" href="#">Data and Privacy</a>
+                </nav>
+                <nav class="footerColumns">
+                    <a class="footerColumns__a" href="#">Our Accomodations</a>
+                    <a class="footerColumns__a" href="#">Quality assessments</a>
+                    <a class="footerColumns__a" href="#">You have a hotel?</a>
+                </nav>
+                <nav class="footerColumns">
+                    <a class="footerColumns__a" href="#">Assistance</a>
+                    <a class="footerColumns__a" href="#">Help Desk</a>
+                    <a class="footerColumns__a" href="#">Contact us</a>
+                </nav>
+        </div>
+    </footer>
+
 </body>
 
 </html>
