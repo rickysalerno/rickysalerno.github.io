@@ -305,7 +305,7 @@
     background-color: rgb(168, 193, 236);
 }
 
-@media (max-width: 600px) {
+@media (max-width: 674px) {
     .containerRoomPopular__a {
         display: flex;
         flex-flow: column wrap;
