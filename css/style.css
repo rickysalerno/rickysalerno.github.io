@@ -410,15 +410,17 @@
 
 .footerContainer {
     display: flex;
-    justify-content: space-between;
-    margin:0 2em;
-    flex-grow: 1;
+    flex-flow: row wrap;
 }
 
 .footerColumns {
     display: flex;
     flex-flow: column wrap;
     flex-grow: 1;
+    flex-basis: 15rem;
+    margin-top: 2rem;
+    align-content: center;
+    text-align: justify;
 }
 
 .footerColumns__a {
@@ -431,5 +433,10 @@
     color: rgb(21, 94, 230);
 }
 
-
+@media (max-width:728px) {
+    .footerColumns {
+        text-align: center;
+        
+    }
+}
 /* fine Footer */
