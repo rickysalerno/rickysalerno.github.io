@@ -201,7 +201,6 @@
     flex-flow: row wrap;
     gap: 2rem;
     margin: 2rem 0;
-    flex:1;
 }
 
 
@@ -272,10 +271,12 @@
     flex-flow: column wrap;
     gap: 2rem;
     flex-grow: 1;
+    flex-basis: 10rem;
 }
 
 .containerRoomPopular__a {
     display: flex;
+    flex-flow: row wrap;
     gap: 1rem;
     background-color: white;
     border:1px solid rgb(216, 215, 215);
@@ -296,6 +297,8 @@
 
 .containerRoomPopular__a__div {
     min-width: 6rem;
+    margin:2.3em 2.3em 0 2.3em;
+    max-width:100%;
 }
 
 
@@ -303,6 +306,26 @@
     background-color: rgb(168, 193, 236);
 }
 
+@media (max-width: 600px) {
+    .containerRoomPopular__a {
+        display: flex;
+        flex-flow: column wrap;
+        padding-right: 0;
+
+    }
+    .containerRoomPopular__a__img {
+        width: 100%;
+        border-radius: 2rem 2rem 0rem 0rem;
+        object-fit: cover;
+    }
+    .containerRoomPopular__a__div {
+        min-width: 6rem;
+        margin:2.3rem 2.3rem 0 2.3rem;
+        max-width: 100%;
+        margin-top: 1px;
+        text-align: center;
+    }
+}
 
 
 /* fine Most Popular */
@@ -377,7 +400,6 @@
 .footerContainer {
     display: flex;
     justify-content: space-between;
-    gap: 2rem;
     margin:0 2em;
     flex-grow: 1;
 }
